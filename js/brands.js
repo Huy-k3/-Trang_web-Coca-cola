@@ -147,9 +147,14 @@ var listImg = [
     '../../img/brands.img/all/34.png',
     '../../img/brands.img/all/35.png'
 ]
+
 for(var i = 0 ; i <  listImg.length  ; i++ ){
-    var text =  "<div class='card_img'>  <img src= "+ listImg[i] + ">"
+    var text =  "<div class='card_img'><img src= "+ listImg[i] + ">"
  {
         document.getElementById("myIMG").innerHTML += text;
     }
 };
+
+//https://www.drinkaha.com/
+//https://www.aquarius-sports.jp/
+//https://us.coca-cola.com/
